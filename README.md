@@ -1,3 +1,6 @@
+:dsf
+
+
 # devops-netology
 **/Terraform/* игнорировать все файлы и папки в директории terraform
 *.tfstate игнорировать все файлы с расширением tfstate
