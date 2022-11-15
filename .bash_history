@@ -126,3 +126,15 @@ q
 vim index.html[B
 cls
 
+git commit -a -m 'added a new folder [issue53]'
+git commit -a -m 'added a new footer [issue53]'
+git checkout -b hotfix
+vim index.html
+git commit -a -m 'fixed the broken email address'
+git checkout master
+git merge hotfix
+git branch -d hotfix
+git checkout iss53
+vim index.html
+git checkout master
+git commit -a -m 'finished the new footer [issue 53]'
