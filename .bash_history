@@ -138,3 +138,40 @@ git checkout iss53
 vim index.html
 git checkout master
 git commit -a -m 'finished the new footer [issue 53]'
+git status
+git commit -a -m 'finished the new footer [issue 53]'
+git status
+git checkout master
+git merge iss53
+пgit checkout master
+git checkout master
+git add --a
+git checkout master
+git status
+git checkout master
+git commit -a -m 'finished the new footer [issue 53]'
+git checkout master
+git merge iss53
+vim index.html
+git fetch origin
+git branch experiment
+git checkout experiment
+git rebase master
+git checkout
+git checkout master
+git checkout experiment
+git куифыу --щтещ ьфыеук ыукмук сдшуте
+git rebase --onto master server client
+nano
+nano index.html
+git status
+git branch --h
+ls -lh
+ls -lh .git.hooks
+ls -lh .git/hooks
+git status
+git pull https://github.com/Razbor/d-n.git
+git status
+ls lh git.//hooks
+cd .git/hooks
+less pre-commit.sample 
